@@ -1,0 +1,165 @@
+*{
+    font-family: 'Roboto';
+}
+
+section{
+   padding: 0 200px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 0 200px; 
+}
+
+.navbar a{
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+.navtitle{
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+.navlink {
+    display: inline-block;
+    text-align: right;
+    padding: 0 20px;
+    list-style: none;
+}
+
+section.s1{
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+section.s1 div {
+    max-width: 50%;
+    padding-bottom: 10px
+}
+
+section.s1 h1{
+    font-size: 48px;
+    font-weight: 900;
+    max-width: 35%;
+    margin-bottom: 0;
+}
+
+.s1container{
+    width:50%;
+}
+
+#subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.s1 img{
+    max-width: 350px;
+    margin-left: auto;
+}
+
+section.s2 {
+    text-align: center;
+}
+
+#s2container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 200px;
+    padding: 25px 0;
+    font-size: 11px;
+}
+
+.s2img {
+    max-width: 100px;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.s2 img {
+    width: 100px;
+    height: 100px;
+    border: 3px #3882f6 solid;
+    border-radius: 12px;
+}
+section.s3 {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    text-align: center;
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    text-align: left;
+    color: #1f2937;
+    padding-top: 30px;
+    margin: 0;
+}
+
+#author {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    margin-top: 10px;
+}
+
+footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 30px;
+    text-align: center;
+}
+
+#signup {
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    border-radius: 8px;
+    height: 30px;
+    text-align: center;
+    border: none;
+    font-weight: 600;
+}
+
+#cta {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 12px;
+    padding: 20px 120px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px auto;
+}
+
+#cta h3,p{
+    margin: 0px;
+}
+
+#cta button {
+    margin-left: auto;
+}
+
+#cta button {
+    border: 2px solid white;
+}
